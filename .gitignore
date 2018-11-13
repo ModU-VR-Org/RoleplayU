@@ -4,6 +4,11 @@
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
+Assets/ImportedAssets*
+Assets/Poly*
+Assets/Prefabs/CustomBuildPrefabs*
+Assets/Scenes/CustomBuildScenes*
+
 
 # Visual Studio cache directory
 .vs/
