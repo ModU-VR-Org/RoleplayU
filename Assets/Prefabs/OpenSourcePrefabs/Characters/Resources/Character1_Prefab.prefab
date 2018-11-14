@@ -1,0 +1,571 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1879411447729450}
+  m_IsPrefabAsset: 1
+--- !u!1 &1211157163948432
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4956918957310094}
+  - component: {fileID: 33571452055404578}
+  - component: {fileID: 23773655812348708}
+  m_Layer: 0
+  m_Name: Nose
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1325276189538686
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4011607294804832}
+  - component: {fileID: 33087519828612414}
+  - component: {fileID: 23617036449308064}
+  - component: {fileID: 135617031326746076}
+  m_Layer: 0
+  m_Name: EyeLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1564070945298682
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4096656171579046}
+  - component: {fileID: 33076660852329172}
+  - component: {fileID: 23230708082968884}
+  m_Layer: 0
+  m_Name: Mouth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1628369178319516
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4204979742759604}
+  - component: {fileID: 33310312356529614}
+  - component: {fileID: 23796500178279760}
+  - component: {fileID: 135545447783662574}
+  m_Layer: 0
+  m_Name: EyeRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1879411447729450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4704003909098112}
+  - component: {fileID: 114299954443296628}
+  m_Layer: 0
+  m_Name: Character1_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1887295565054922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4046821871579836}
+  - component: {fileID: 33036189069208010}
+  - component: {fileID: 23348225132104604}
+  - component: {fileID: 135200351905008366}
+  m_Layer: 0
+  m_Name: Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4011607294804832
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1325276189538686}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.145, y: 0.206, z: 0.416}
+  m_LocalScale: {x: 0.17009999, y: 0.1701, z: 0.1701}
+  m_Children: []
+  m_Father: {fileID: 4046821871579836}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4046821871579836
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1887295565054922}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0018005371, y: 0.17400002, z: 0.0089998245}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_Children:
+  - {fileID: 4956918957310094}
+  - {fileID: 4204979742759604}
+  - {fileID: 4011607294804832}
+  - {fileID: 4096656171579046}
+  m_Father: {fileID: 4704003909098112}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4096656171579046
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564070945298682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.102, z: 0.486}
+  m_LocalScale: {x: 0.5, y: 0.15, z: 0.1}
+  m_Children: []
+  m_Father: {fileID: 4046821871579836}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4204979742759604
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1628369178319516}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.145, y: 0.20599991, z: 0.4159999}
+  m_LocalScale: {x: 0.1701, y: 0.1701, z: 0.1701}
+  m_Children: []
+  m_Father: {fileID: 4046821871579836}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4704003909098112
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1879411447729450}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.601, y: 1.092, z: 2.798}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4046821871579836}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4956918957310094
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1211157163948432}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.39}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.68}
+  m_Children: []
+  m_Father: {fileID: 4046821871579836}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23230708082968884
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564070945298682}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 4b87d0f74953eba4f9fee5ee63671acb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23348225132104604
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1887295565054922}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: e9d0e4693fea1c946abced62d1dd6201, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23617036449308064
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1325276189538686}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 73b24e84c5ae18c498b2bb708ab74716, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23773655812348708
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1211157163948432}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: e9d0e4693fea1c946abced62d1dd6201, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23796500178279760
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1628369178319516}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 73b24e84c5ae18c498b2bb708ab74716, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33036189069208010
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1887295565054922}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33076660852329172
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564070945298682}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33087519828612414
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1325276189538686}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33310312356529614
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1628369178319516}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33571452055404578
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1211157163948432}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114299954443296628
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1879411447729450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd695ab6ee6f41b4faf516ace570d45b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterPicture: {fileID: 21300000, guid: 7b085e330a8c1c942af737d0b7f3a050, type: 3}
+  characterData:
+    characterName: Cleric
+    characterRace: Goblin
+    characterClass: Cleric
+    description: 
+    stat_armorClass: 16
+    stat_strength: 8
+    stat_dexterity: 16
+    stat_constitution: 14
+    stat_intelligence: 12
+    stat_wisdom: 15
+    stat_charisma: 10
+    stat_strengthMod: -1
+    stat_dexterityMod: 3
+    stat_constitutionMod: 2
+    stat_intelligenceMod: 1
+    stat_wisdomMod: 2
+    stat_charismaMod: 0
+    stat_healthMax: 8
+    currentHealth: 8
+    stat_speed: 30
+    abilitiesList:
+    - name: Backstory
+      highlightDescription: Chaotic Nuetral, Age 55, Spellcasting Wisdom
+      description: 'Worships Athena, the goddess of wisdom and civilization (whose
+        symbol is an owl).   As a young cleric, this goblin traveled from war to war,
+        healing those he could. Over the years, however, he has become jaded to the
+        folly of war, and with blessings from his God Athena hopes to end all war
+        so that society can prosper.  Uncannily wise for a goblin, he deals with discrimination
+        by attempting to shame, pulling out stories and knowledge from his experience
+        as a war healer. '
+    - name: Equipment
+      highlightDescription: 
+      description: a mace, leather armor, a priest's pack (Includes a backpack, a
+        blanket, 10 candles, a tinderbox, an alms box, 2 blocks of incense, a censer,
+        vestments, 2 days of rations, and a waterskin), a shield, a holy symbol
+    - name: Mace
+      highlightDescription: Strength + 2 to hit
+      description: 1D6 + Strength blugeoning damage
+    - name: Cure Wounds
+      highlightDescription: 
+      description: '1st Level Evocation <br> CASTING TIME: 1 Action <br> RANGE/AREA:
+        Touch <br> DURATION: Instantaneous <br> A creature you touch regains a number
+        of hit points equal to 1d8 + your spellcasting ability modifier (WIS). This
+        spell has no effect on undead or constructs.'
+    - name: Bless
+      highlightDescription: 
+      description: '1st LEVEL <br> CASTING TIME: 1 Action <br> RANGE/AREA: 30 ft <br>
+        DURATION: Concentration 1 Minute <br> You bless up to three creatures of your
+        choice within range. Whenever a target makes an attack roll or a saving throw
+        before the spell ends, the target can roll a d4 and add the number rolled
+        to the attack roll or saving throw. '
+    - name: Diciple of Life
+      highlightDescription: 
+      description: "Whenever you use a spell of 1st level or higher to restore hit
+        points to a creature, the creature regains additional hit points equal to
+        2 + the spell\u2019s level. "
+    - name: Sacred Flame
+      highlightDescription: (Dexterity Save)
+      description: 'Evocation cantrip <br> Casting Time: 1 action <br> Range: 60 feet
+        <br> Duration: Instantaneous <br> Flame-like radiance descends on a creature
+        that you can see within range. The target must succeed on a Dexterity saving
+        throw or take 1d8 radiant damage. The target gains no benefit from cover for
+        this saving throw.  '
+    - name: Guidance
+      highlightDescription: 
+      description: 'Divination cantrip <br> Casting Time: 1 action <br> Range: Touch
+        <br> Duration: Concentration, up to 1 minute <br> You touch one willing creature.
+        Once before the spell ends, the target can roll a d4 and add the number rolled
+        to one ability check of its choice. It can roll the die before or after making
+        the ability check. The spell then ends. '
+    - name: Spare the Dying
+      highlightDescription: 
+      description: 'Necromancy cantrip <br> Casting Time: 1 action <br> Range: Touch
+        <br> Duration: Instantaneous <br> You touch a living creature that has 0 hit
+        points. The creature becomes stable. This spell has no effect on undead or
+        constructs. '
+    - name: Shield of Faith
+      highlightDescription: 
+      description: '1st-level abjuration <br> Casting Time: 1 bonus action <br> Range:
+        60 feet <br> Duration: Concentration, up to 10 minutes <br> A shimmering field
+        appears and surrounds a creature of your choice within range, granting it
+        a +2 bonus to AC for the duration. '
+    - name: Inflict Wounds
+      highlightDescription: 
+      description: '1st-level necromancy <br> Casting Time: 1 action <br> Range: Touch
+        <br> Duration: Instantaneous <br> Make a melee spell attack against a creature
+        you can reach. On a hit, the target takes 3d10 necrotic damage. '
+    - name: Create/Destroy Water
+      highlightDescription: 
+      description: '1st-level transmutation <br> Casting Time: 1 action <br> Range:
+        30 feet <br> Duration: Instantaneous <br> You either create or destroy water.
+        <br> Create Water. You create up to 10 gallons of clean water within range
+        in an open container. Alternatively, the water falls as rain in a 30-foot
+        cube within range, extinguishing exposed flames in the area. <br> Destroy
+        Water. You destroy up to 10 gallons of water in an open container within range.
+        Alternatively, you destroy fog in a 30-foot cube within range. '
+    - name: Fury of the Small
+      highlightDescription: 
+      description: 'When you damage a creature with an attack or a spell and the creature''s
+        size is larger than yours, you can cause the attack or spell to deal extra
+        damage to the creature. The extra damage equals your level. Once you use this
+        trait, you can''t use it again until you finish a short or long rest. '
+    - name: Nimble Escape
+      highlightDescription: 
+      description: 'The goblin can take the Disengage or Hide action as a bonus action
+        on each of its turns. '
+    - name: Darkvision
+      highlightDescription: 
+      description: 'Accustomed to life underground, you have superior vision in dark
+        and dim conditions. You can see in dim light within 60 feet of you as if it
+        were bright light, and in darkness as if it were dim light. You can''t discern
+        color in darkness, only shades of gray. '
+--- !u!135 &135200351905008366
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1887295565054922}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!135 &135545447783662574
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1628369178319516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!135 &135617031326746076
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1325276189538686}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}

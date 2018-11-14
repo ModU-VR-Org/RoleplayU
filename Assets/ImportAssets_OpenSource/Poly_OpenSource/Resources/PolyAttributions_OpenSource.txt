@@ -1,0 +1,14 @@
+This project uses the following items from Poly (http://poly.google.com):
+
+Title: modified scroll
+Author: Phil MacEachron
+URL: https://poly.google.com/view/f0WL8uxBZQs
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+
+Title: Wasp
+Author: Poly by Google
+URL: https://poly.google.com/view/4UdWQxbm0-B
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 741152b83477b144c8443a1d17732f1e, type: 3}
+  m_Name: AvatarArtAndCharacterData_Default
+  m_EditorClassIdentifier: 
+  characterPrefabsList:
+  - {fileID: 1879411447729450, guid: b681266140e8bac44b3bb38604653f2f, type: 2}
+  - {fileID: 1377040102210212, guid: c2110e96161ad9a48876489f408aed6e, type: 2}
+  - {fileID: 1024491449789356, guid: 240fad39a858a0b4e9e11341dbe841c2, type: 2}
+  - {fileID: 1315569833670074, guid: 1b0811297bf773a40a44a913b5c9ac06, type: 2}
+  - {fileID: 1421567500657882, guid: 4cbfc1efd928e4d478289c1297f5b3f3, type: 2}
+  - {fileID: 1500756782156572, guid: 0802ff6b917b3b14e94a1f138453af75, type: 2}
+  characterPrefabHandsList:
+  - handLeft: {fileID: 1545006508684270, guid: 987b075033f68b947aaec78bc6c19a63, type: 2}
+    handRight: {fileID: 1545006508684270, guid: 987b075033f68b947aaec78bc6c19a63,
+      type: 2}
+  - handLeft: {fileID: 1207800559553490, guid: 8e8e41c67afcb0b459f5917be1789cd4, type: 2}
+    handRight: {fileID: 1207800559553490, guid: 8e8e41c67afcb0b459f5917be1789cd4,
+      type: 2}
+  - handLeft: {fileID: 1442138106184564, guid: a91c4e00c4e829a4284f09f337b376c8, type: 2}
+    handRight: {fileID: 1442138106184564, guid: a91c4e00c4e829a4284f09f337b376c8,
+      type: 2}
+  - handLeft: {fileID: 1447224939899588, guid: 454be08fe7f0697468a2dff77cad8199, type: 2}
+    handRight: {fileID: 1447224939899588, guid: 454be08fe7f0697468a2dff77cad8199,
+      type: 2}
+  - handLeft: {fileID: 1207411530910458, guid: 98decd05b9c1e744296c7a7a2cc33f1e, type: 2}
+    handRight: {fileID: 1207411530910458, guid: 98decd05b9c1e744296c7a7a2cc33f1e,
+      type: 2}
+  - handLeft: {fileID: 1630273117835352, guid: 40a4c0ea9245eaf408261f1dec7546ae, type: 2}
+    handRight: {fileID: 1630273117835352, guid: 40a4c0ea9245eaf408261f1dec7546ae,
+      type: 2}
