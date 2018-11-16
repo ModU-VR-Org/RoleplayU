@@ -1,4 +1,6 @@
-# RoleplayU
+# RoleplayU VR Framework
+
+RoleplayU is a free, open source app and framework for playing roleplay games like DnD in VR.
 
 ## Game Build: (link)
 
@@ -9,7 +11,7 @@ You can easily modify in-game character stats following this guide: [https://doc
 
 ## Discord: [https://discord.gg/nDF6HyZ](https://discord.gg/nDF6HyZ)
 
-Join the official Discord chat server to find other players and get development help!
+Join our official Discord chat to find other players and get development help!
 
 
 ## Documentation: [https://docs.google.com/document/d/14DKQN3I8AbEDm1r01w3i4YahNthRY-AHTZDjQxVhTmQ/edit?usp=sharing](https://docs.google.com/document/d/14DKQN3I8AbEDm1r01w3i4YahNthRY-AHTZDjQxVhTmQ/edit?usp=sharing)
