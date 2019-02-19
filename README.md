@@ -2,7 +2,7 @@
 
 RoleplayU is a free, open source app and framework for playing roleplay games like DnD in VR.
 
-## Game Build: (link)
+## Game Build: [https://mega.nz/#!iu4DlICI!XeomT0vEQu2Nxm-tnUhPzBvIJSHZD5ZjEbDmlkIYtkg](https://mega.nz/#!iu4DlICI!XeomT0vEQu2Nxm-tnUhPzBvIJSHZD5ZjEbDmlkIYtkg)
 
 Download and use this if you want to play RoleplayU without modding it in Unity. After downloading, just double click the .exe file and you're good to go! Requires SteamVR. 
 
