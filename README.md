@@ -6,7 +6,11 @@ RoleplayU is a free, open source app and framework for playing roleplay games li
 
 Download and use this if you want to play RoleplayU without modding it in Unity. After downloading, just double click the .exe file and you're good to go! Requires SteamVR. 
 
+![Gif of app](https://media.giphy.com/media/8OPHgVlfY5vKC7fUeN/giphy.gif)
+
 You can easily modify in-game character stats following this guide: [https://docs.google.com/document/d/1p3Ny3SrAf1v94OukzHZnKREJ41cPG7JLpGq-kXSaPSQ/edit?usp=sharing](https://docs.google.com/document/d/1p3Ny3SrAf1v94OukzHZnKREJ41cPG7JLpGq-kXSaPSQ/edit?usp=sharing)
+
+Here's a 5 min video of the features in the build: [https://www.youtube.com/watch?v=Jh-kJFLz494](https://www.youtube.com/watch?v=Jh-kJFLz494)
 
 
 ## Discord: [https://discord.gg/nDF6HyZ](https://discord.gg/nDF6HyZ)
